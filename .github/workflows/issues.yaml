@@ -2,6 +2,7 @@ name: Issue Reply
 permissions:
   issues: write
 on:
+  workflow_dispatch:
   issues:
     types: [labeled]
 jobs:
